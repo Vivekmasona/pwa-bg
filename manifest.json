@@ -1,6 +1,6 @@
 {
-  "name": "Music App1",
-  "short_name": "MusicApp1",
+  "name": "Music App",
+  "short_name": "MusicApp",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -18,3 +18,5 @@
     }
   ]
 }
+
+      
