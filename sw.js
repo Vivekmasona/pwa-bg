@@ -6,7 +6,9 @@ self.addEventListener('install', function(event) {
         '/index.html',
         '/styles.css',
         '/script.js',
-        '/https://aac.saavncdn.com/180/4671f6303734fc7f7cf0569ba5e80873_12.mp4',
+        '/sw.js',
+        'https://vfy.netlify.app/img/logo.png',
+        'https://aac.saavncdn.com/180/4671f6303734fc7f7cf0569ba5e80873_12.mp4'
       ]);
     })
   );
