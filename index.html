@@ -6,9 +6,10 @@
 </head>
 <body>
   <audio id="player" src="https://aac.saavncdn.com/180/4671f6303734fc7f7cf0569ba5e80873_12.mp4" controls></audio>
+  <button id="playButton">Play</button>
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw.js')
+      navigator.serviceWorker.register('/service-worker.js')
         .then(function(registration) {
           console.log('Service Worker registered with scope:', registration.scope);
         }).catch(function(error) {
