@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // Set up Media Session API for controls
   if ('mediaSession' in navigator) {
     navigator.mediaSession.metadata = new MediaMetadata({
-      title: 'Song Title',
-      artist: 'Artist Name',
+      title: 'bhojpuri song',
+      artist: 'neelkamal',
       album: 'Album Name',
       artwork: [
         { src: 'https://vfy.netlify.app/img/logo.png', sizes: '96x96', type: 'image/png' },
